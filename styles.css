@@ -14,27 +14,26 @@ h1{
     margin-bottom: 24px;
 }
 
+h2{
+    color: #33a8db;
+    font-size: 2rem;
+    font-weight: bold;    
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
 
 p{
     color: white;
-
+    margin-bottom: 10px;
 }
+
 button{
     color: #33a8db;
     margin-bottom: auto;
     cursor: pointer;
     background-color: transparent;
     border: #33a8db 1px solid;
-
-}
-
-h2{
-    color: #33a8db;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-bottom: 24px;
 }
 
 section{
@@ -42,7 +41,7 @@ section{
 }
 
 .banner{
-    background-image:url("banner.png"), linear-gradient(rgba(0, 0, 0, .6));
+    background-image:linear-gradient(rgba(0, 0, 0, .2), rgba(49, 168, 221, .2), rgba(0, 0, 0, .2)), url("https://github.com/micheleambrosio/trilha-css-desafio-01/blob/main/assets/images/banner.png?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -55,8 +54,6 @@ section{
     color: white;
     width: 600px;
     margin: auto;
-
-
 }
 
 .banner h1{
@@ -67,7 +64,6 @@ section{
     background: -webkit-linear-gradient(#33a8db, #1472B7);
     background-clip: text;
     -webkit-background-clip: text;
-
 }
 
 .banner p {
@@ -86,7 +82,6 @@ section{
 }
 
 .banner .logo img{
-
     margin: auto;
     width: 100%;
     height: 100%;
@@ -104,12 +99,10 @@ section{
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
     border-radius: 30px;
-
 }
 
 #course-content{
     width: 800px;
-
 }
 
 #course-content .modules-list{
@@ -125,19 +118,16 @@ section{
     padding: 16px;
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
-
-
 }
 
 #course-content .modules-list .module span{
     color: #33a8db;
-
 }
 
 #transform-world{
     height: 560px;
     background-size: cover;
-    background-image: url("assets\images\woman-code.png");
+    background-image:url("https://github.com/micheleambrosio/trilha-css-desafio-01/blob/main/assets/images/woman-code.png?raw=true");
     background-attachment: fixed;
     border-top: 1px solid #33A8DB80;
     border-bottom: 1px solid #33A8DB80;
@@ -155,17 +145,17 @@ section{
 #professional-challenges{
     text-align: center;
     width: 800px; 
-
 }
 
 #professional-challenges img{
-    margin: 32px 0;s
+    margin: 32px 0;
 }
 
 footer{
-    padding:60px;
+    padding:60px 0;
     text-align:center;
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
 }
 
 footer .dio-logo{
